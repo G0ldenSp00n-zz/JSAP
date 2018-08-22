@@ -1,0 +1,16 @@
+{
+  "name": "JSAP",
+  "version": "1.0.0",
+  "description": "JS Application Patcher",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "G0ldenSp00n",
+  "license": "ISC",
+  "dependencies": {
+    "diff": "^3.5.0",
+    "express": "^4.16.3",
+    "md5": "^2.2.1"
+  }
+}

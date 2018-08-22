@@ -1,0 +1,17 @@
+<head>
+    <title>Delta Patcher</title>
+    <script src='/fullFile/javascriptTest.js'></script>
+</head>
+
+<body>
+    <h1>Delta Patcher</h1>
+    
+    <script>
+    if('serviceWorker' in navigator && !navigator.serviceWorker.controller) {
+        console.log(navigator.serviceWorker)
+        navigator.serviceWorker
+                 .register('/deltaPatcher.js')
+                 .then(function() { console.log ("Delta Patcher Added!");})
+    }
+    </script>
+</body>
